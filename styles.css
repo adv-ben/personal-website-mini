@@ -1,0 +1,86 @@
+body {
+    all: unset
+}
+
+h1, h2, p, nav {
+    all: unset
+}
+
+:root {
+    --background: #ffeccc;
+    --text_color: #301901;
+    --link_color: #ce0000;
+    --white: #ffffff;
+  }
+
+body {
+    background-color: var(--background);
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+}
+
+h1, h2, p {
+    display: block;
+    margin-left: 5%;
+    color: var(--text_color);
+}
+
+#content {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4em;
+    padding-left: 10px;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 400;
+    padding-left: 10px;
+}
+p {
+    font-size: 1.5em;
+    padding-left: 50px;
+}
+
+nav {
+    font-size: 1.5em;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+}
+
+nav > a {
+    margin: auto 0 auto 50px
+}
+
+#space {
+    height: 50px
+}
+
+#email {
+    display: flex;
+}
+#emailimg {
+    display: inline;
+    width: 300px;
+    margin-left: 3%
+}
+a {
+    text-decoration: none;
+    color: var(--link_color);
+}
+a:link {
+}
+a:active {
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+}
